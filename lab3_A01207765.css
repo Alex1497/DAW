@@ -1,0 +1,84 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body{
+    
+    background-color: LightGray;
+    background-image: url(http://www.theriversouth.org/wp-content/uploads/2016/01/Light-Grey-Background-Tumblr-8-1024x640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    margin:auto;
+    max-width: 50em;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    color: #555;
+    
+}
+
+
+
+h1,
+h2,
+strong{
+    margin-top: 1em;
+    padding-top: 1em;
+    
+}
+
+
+
+code, 
+pre{
+    background: #eee;
+    border-bottom: 1px solid #d8dee9;
+    color: #a7adba;
+    
+}
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+pre{
+    padding: 1em;
+}
+
+a{
+    color: #e81c4f;
+}
+
+header{
+    background-image:url("fondo.jpg");
+    background-color: #263d36;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 10px;
+    margin-right: 20px; 
+}
+
+p span{ 
+    color: purple; 
+}
+
+h1 span{
+    color: blue; 
+}
+
+.answer{
+    color: #3399ff;
+    font-weight: bold;
+}
+
+#subparrafo{
+    color: brown;
+    font-weight: bold
+    
+}
