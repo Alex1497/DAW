@@ -16,7 +16,6 @@ body{
 }
 
 
-
 h1,
 h2,
 strong{
@@ -26,13 +25,11 @@ strong{
 }
 
 
-
 code, 
 pre{
     background: #eee;
     border-bottom: 1px solid #d8dee9;
     color: #a7adba;
-    
 }
 
 code {
