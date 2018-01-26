@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type= "text/css" href="lab3minstyle.css" />
+    <head>
+        <title>Lab5</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    <h1>Lab 5: Programación Orientada a Eventos</h1>
+        <p>Alejandro Alvarez Palafox</p>
+        <p>A01207765</p>
+        <p>Correo: a01207765@itesm.mx</p>
+        <br>
+    <section>
+    <h2>Verificar Contraseña</h2>
+        <div>
+            <label>Contraseña:</label>
+            <input type="password" id="contraseña">
+        </div>
+        <br>
+        <div>
+            <label>Verificar:</label>
+            <input type="text" id="intento">
+        </div>
+        <br>
+        <button id="veri">Verificar Contraseña</button>
+        <br>
+        <hr>
+         <h3>Tienda</h3>
+            <h4>Carl on Duty Black Cops $850.00</h4>
+            <p><strong>Descripción: </strong>Nuevo juego estilo shooter para XBOX 360. Juega como el policia Carl y derrota a todos los maleantes. Iva incluido</p>
+                <img src="https://vignette.wikia.nocookie.net/vidya/images/a/a3/Carl-on-duty-black-cops.jpg/revision/latest?cb=20110527153708" alt = "blackCops">
+                <br><br>
+                <p>Ingrese la cantidad:</p>
+                <input id = "cantidadBlackCops" type="number" min="1" max="12">
+                <table cellspacing = "20">
+                    <tr>
+                        <th> </th>
+                        <th>Costo en mxn.:</th>
+                    
+                    </tr>
+                        <td>Producto:</td>
+                        <td id = "prodBlackCops"></td>
+                    </tr>
+                    <tr>
+                        <td>IVA:</td>
+                        <td id = "ivaBlackCops"></td>
+                    </tr>
+                    <tr>
+                        <td>Comisión:</td>
+                        <td id = "comisionBlackCops"></td>
+                    </tr>
+                    <tr>
+                        <td>Total:</td>
+                        <td id = "totalBlackCops"></td>
+                    </tr>
+                </table>
+                 <hr>
+                 <h4>Acordeón Hero $500</h4>
+                <p>Lleve una copia de este magnífico juego musical.Si eres fan de la banda no te lo puedes perder. Incluye IVA.</p>
+                <img src="http://tanakamusic.com/wp-content/uploads/2010/02/accordian_hero.jpg" alt = "AcordeonHero">
+                <br><br>
+                <p>Ingrese la cantidad: </p>
+                <input id = "cantidadAcordeonHero" type="number" min="1" max="8">
+                <table cellspacing="20">
+                    <tr>
+                        <th> </th>
+                        <th>Costo en mxn.:</th>
+                    
+                    </tr>
+                    <tr>
+                        <td>Producto:</td>
+                        <td id = "prodAcordeonHero"></td>
+                    </tr>
+                    <tr>
+                        <td>IVA:</td>
+                        <td id = "ivaAcordeonHero"></td>
+                    </tr>
+                    <tr>
+                        <td>Comisión:</td>
+                        <td id = "comisionAcordeonHero"></td>
+                    </tr>
+                    <tr>
+                        <td>Total:</td>
+                        <td id = "totalAcordeonHero"></td>
+                    </tr>
+               </table>
+
+                 <hr>
+                 <h4>Grand Theft Auto: Mexico City $600</h4>
+                <p>Lleve este nuevo juego de GTA para PS2, dónde podrá jugar como el "peje", "Juan Ga" y muchos personajes más. Incluye IVA.</p>
+                <img src="https://warexparty.files.wordpress.com/2008/07/mexicogtavk0.jpg" alt = "GTAM">
+                <br><br>
+                <p>Ingrese la cantidad: </p>
+                <input id = "cantidadGTAM" type="number" min="1" max="8">
+                <table cellspacing="20">
+                    <tr>
+                        <th> </th>
+                        <th>Costo en mxn.:</th>
+                    
+                    </tr>
+                    <tr>
+                        <td>Producto:</td>
+                        <td id = "prodGTAM"></td>
+                    </tr>
+                    <tr>
+                        <td>IVA:</td>
+                        <td id = "ivaGTAM"></td>
+                    </tr>
+                    <tr>
+                        <td>Comisión:</td>
+                        <td id = "comisionGTAM"></td>
+                    </tr>
+                    <tr>
+                        <td>Total:</td>
+                        <td id = "totalGTAM"></td>
+                    </tr>
+               </table>
+                <hr>
+                <h2> Adivinar edad</h2>
+
+                   <p>Escribe tu año de nacimiento</p>
+
+                    <input id = "anios">
+                    <button id = "fecha">Generar</button>
+                    <br>
+                    <br>
+                    <hr>
+                <h2>Cuestionario</h2>
+                <p>¿Por qué es una buena práctica usar JavaScript para checar que sean válidos los inputs de las formas antes de enviar los datos al servidor?<br>
+                <strong id= "answer">Para no  esperar a mandar los datos y que el servidor responda que la entrada es incorrecta y también para que no se pierdan los otros datos de los formularios.</strong></p>
+                </p>
+                <p>¿Cómo puedes saltarte la seguridad de validaciones hechas con JavaScript?<br>
+                 <strong>Deshabilitando JavaScript</strong>   
+                </p>
+                <p>Si te puedes saltar la seguridad de las validaciones de JavaScript, entonces ¿por qué la primera pregunta dice que es una buena práctica?<br>
+                 <strong>Para evitar que el usuario pierda la información llenada en los demás campos y hacer más eficiente la página, ya que el servidor no trabaja con datos erróneos.
+                </strong>
+                </p>
+        <script type="text/javascript" src="lab5.js"></script>
+    </body>
+    
+</html>
