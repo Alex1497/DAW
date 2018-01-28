@@ -26,10 +26,10 @@ document.getElementById("cantidadAcordeonHero").onchange = function(){costo(499.
 document.getElementById("cantidadGTAM").onchange = function(){costo(599.99, "GTAM")};
 
 function edad(){
-    var añoNac = parseInt(document.getElementById("anios"));
-    var añios = 2000-añoNac;
-    var res;
-    res = alert("Tu edad es "+ añios+" años");
+    var anoNac = document.getElementById("anios").value;
+    var anoActual = new Date().getFullYear();
+    var res = anoActual - anoNac;
+    alert("Tienes "+ res+ " años" );
 }
 
 document.getElementById("fecha").onclick = edad;
