@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type= "text/css" href="lab3minstyle.css" />
+    <head>
+        <title>Lab6</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    <h1 id="demo" onmouseover="myFunction()">Lab 6: Documentos Dinámicos con Java Script</h1>
+        <p>Alejandro Alvarez Palafox</p>
+        <p>A01207765</p>
+        <p>Correo: a01207765@itesm.mx</p>
+        <br>
+    <section>
+    <p class="watermark">Watermark</p>
+    <h2>Verificar Contraseña</h2>
+        <div>
+            <label>Contraseña:</label>
+            <input type="password" id="contraseña">
+        </div>
+        <br>
+        <div>
+            <label>Verificar:</label>
+            <input type="text" id="intento">
+        </div>
+        <br>
+        <button id="veri">Verificar Contraseña</button>
+        <button id="boton_ayuda_password" type="button">?</button>
+        <br>
+        <hr>
+         <h3>Tienda</h3>
+            <h4>Carl on Duty Black Cops $850.00</h4>
+            <p><strong>Descripción: </strong>Nuevo juego estilo shooter para XBOX 360. Juega como el policia Carl y derrota a todos los maleantes. Iva incluido</p>
+                <img src="https://vignette.wikia.nocookie.net/vidya/images/a/a3/Carl-on-duty-black-cops.jpg/revision/latest?cb=20110527153708" alt = "blackCops" class="responsive-image">
+                <br><br>
+                <p>Ingrese la cantidad:</p>
+                <input id = "cantidadBlackCops" type="number" min="1" max="12">
+                <table cellspacing = "20">
+                    <tr>
+                        <th> </th>
+                        <th>Costo en mxn.:</th>
+                    
+                    </tr>
+                        <td>Producto:</td>
+                        <td id = "prodBlackCops"></td>
+                    </tr>
+                    <tr>
+                        <td>IVA:</td>
+                        <td id = "ivaBlackCops"></td>
+                    </tr>
+                    <tr>
+                        <td>Comisión:</td>
+                        <td id = "comisionBlackCops"></td>
+                    </tr>
+                    <tr>
+                        <td>Total:</td>
+                        <td id = "totalBlackCops"></td>
+                    </tr>
+                </table>
+                 <hr>
+                 <h4>Acordeón Hero $500</h4>
+                <p>Lleve una copia de este magnífico juego musical.Si eres fan de la banda no te lo puedes perder. Incluye IVA.</p>
+                <img src="http://tanakamusic.com/wp-content/uploads/2010/02/accordian_hero.jpg" alt = "AcordeonHero" class="responsive-image" height:50; width:20;>
+                <br><br>
+                <p>Ingrese la cantidad: </p>
+                <input id = "cantidadAcordeonHero" type="number" min="1" max="8">
+                <table cellspacing="20">
+                    <tr>
+                        <th> </th>
+                        <th>Costo en mxn.:</th>
+                    
+                    </tr>
+                    <tr>
+                        <td>Producto:</td>
+                        <td id = "prodAcordeonHero"></td>
+                    </tr>
+                    <tr>
+                        <td>IVA:</td>
+                        <td id = "ivaAcordeonHero"></td>
+                    </tr>
+                    <tr>
+                        <td>Comisión:</td>
+                        <td id = "comisionAcordeonHero"></td>
+                    </tr>
+                    <tr>
+                        <td>Total:</td>
+                        <td id = "totalAcordeonHero"></td>
+                    </tr>
+               </table>
+
+                 <hr>
+                 <h4>Grand Theft Auto: Mexico City $600</h4>
+                <p>Lleve este nuevo juego de GTA para PS2, dónde podrá jugar como el "peje", "Juan Ga" y muchos personajes más. Incluye IVA.</p>
+                <img src="https://warexparty.files.wordpress.com/2008/07/mexicogtavk0.jpg" alt = "GTAM">
+                <br><br>
+                <p>Ingrese la cantidad: </p>
+                <input id = "cantidadGTAM" type="number" min="1" max="8">
+                <table cellspacing="20">
+                    <tr>
+                        <th> </th>
+                        <th>Costo en mxn.:</th>
+                    
+                    </tr>
+                    <tr>
+                        <td>Producto:</td>
+                        <td id = "prodGTAM"></td>
+                    </tr>
+                    <tr>
+                        <td>IVA:</td>
+                        <td id = "ivaGTAM"></td>
+                    </tr>
+                    <tr>
+                        <td>Comisión:</td>
+                        <td id = "comisionGTAM"></td>
+                    </tr>
+                    <tr>
+                        <td>Total:</td>
+                        <td id = "totalGTAM"></td>
+                    </tr>
+               </table>
+                <hr>
+                <h2> Adivinar edad</h2>
+
+                   <p>Escribe tu año de nacimiento</p>
+
+                    <input id = "anios" type="number">
+                    <button id = "fecha">Generar</button>
+                    <button id="boton_ayuda_cumpleaños" type="button">?</button>
+                    <br>
+                    <br>
+                    <hr>
+                    
+                    <h2>Drag and Drop</h2>
+                        <p>Drag the image back and forth between the two div elements.</p>
+                        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="http://i0.kym-cdn.com/entries/icons/facebook/000/000/091/TrollFace.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="44">
+                        </div>
+                         <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">Aquí</div>
+                <br>
+                <br>
+                <hr>
+                <h2>Cuestionario</h2>
+                <p>¿Cuáles son las diferencias entre los posibles valores de la propiedad position?<br>
+                <strong class= "answer">
+                     Static: Valores default del elemento<br>
+                     Relative: Se coloca en una posición relativa a su posición normal, pro puede ser afectado por las propiedades top, right, left y bottom.<br>
+                     Fixed: Permanece en la misma posición aunque se haga "scrolling" de la página.<br>
+                     Absolute: Se coloca en un lugar relativo al elemento posicionada más cercano.<br>
+                     Sticky: El elemnto se posiciona basado en el "scrolling" del usuario.<br>
+                     Initial: Establece las propiedades en estado default.<br>
+                     Inherit: hereda las propiedades del elemento padre. [1]
+                </strong></p>
+                </p>
+                <p>¿Cuáles son los valores estándar para la propiedad visibility?<br>
+                 <strong class="answer">
+                     visible: El elemento se puede ver.<br>
+                     hidden: El elemento es invisible.<br>
+                     collapse: Remueve un renglón o columna sin afectar la estructura de la tabla.<br>
+                     initial: Pone las propiedades a su estado default.<br>
+                     inherit: Hereda las propiedades de su padre. [2]
+                     
+                 </strong>   
+                </p>
+                <p>¿Qué es el zIndex y para qué sirve?<br>
+                <strong class="answer">Es una función que especifica el orden de apilamiento de un elemnto. El elemento con mayor orden se pone en frente del otro.
+                Aunque sólo funciona con elementos posicionados.[3]<br>
+                 </strong>
+                </p>
+                <br>
+                <br>
+                <hr>
+                <h2>Referencias:</h2>
+                <p>
+                    [1]https://www.w3schools.com/cssref/pr_class_position.asp
+                    [2]https://www.w3schools.com/cssref/pr_class_visibility.asp
+                    [3]https://www.w3schools.com/cssref/pr_pos_z-index.asp
+                </p>
+        <script type="text/javascript" src="lab5.js"></script>
+    </body>
+    
+</html>
