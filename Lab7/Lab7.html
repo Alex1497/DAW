@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Lab7</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <link rel="stylesheet" type= "text/css" href="lab3minstyle.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body class="container">
+        <div class="jumbotron text-center">
+    <h1 class="display-4">Lab 7:Utilizando Frameworks</h1>
+    </div>
+<section class="xbox">
+    <p>Alejandro Alvarez Palafox</p>
+        <p>A01207765</p>
+        <p>Correo: a01207765@itesm.mx</p>
+        <br>
+    <p class="watermark">Watermark</p>
+    <h2>Verificar Contraseña</h2>
+        <div>
+            <label>Contraseña:</label>
+            <input type="password" id="contraseña">
+        </div>
+        <br>
+        <div>
+            <label>Verificar:</label>
+            <input type="text" id="intento">
+        </div>
+        <br>
+        <div class="btn-group-sm">
+            <button id="veri" type="button" class="btn btn-secondary" >Verificar Contraseña</button>
+            <button id="boton_ayuda_password" type="button" class="btn btn-secondary" >?</button>
+        </div>
+        <div class="container"></div>
+            <br>
+            <hr>
+             <h3>Tienda</h3>
+                <h4>Carl on Duty Black Cops $850.00</h4>
+                <p><strong>Descripción: </strong>Nuevo juego estilo shooter para XBOX 360. Juega como el policia Carl y derrota a todos los maleantes. Iva incluido</p>
+                    <img src="https://vignette.wikia.nocookie.net/vidya/images/a/a3/Carl-on-duty-black-cops.jpg/revision/latest?cb=20110527153708" alt = "blackCops" class="store">
+                    <br><br>
+                    <p>Ingrese la cantidad:</p>
+                    <input id = "cantidadBlackCops" type="number" min="1" max="12">
+                    <table cellspacing = "20">
+                        <tr>
+                            <th> </th>
+                            <th>Costo en mxn.:</th>
+                        
+                        </tr>
+                            <td>Producto:</td>
+                            <td id = "prodBlackCops"></td>
+                        </tr>
+                        <tr>
+                            <td>IVA:</td>
+                            <td id = "ivaBlackCops"></td>
+                        </tr>
+                        <tr>
+                            <td>Comisión:</td>
+                            <td id = "comisionBlackCops"></td>
+                        </tr>
+                        <tr>
+                            <td>Total:</td>
+                            <td id = "totalBlackCops"></td>
+                        </tr>
+                    </table>
+                     <hr>
+                     <h4>Acordeón Hero $500</h4>
+                    <p>Lleve una copia de este magnífico juego musical.Si eres fan de la banda no te lo puedes perder. Incluye IVA.</p>
+                    <img src="http://tanakamusic.com/wp-content/uploads/2010/02/accordian_hero.jpg" alt = "AcordeonHero" class="store">
+                    <br><br>
+                    <p>Ingrese la cantidad: </p>
+                    <input id = "cantidadAcordeonHero" type="number" min="1" max="8">
+                    <table cellspacing="20">
+                        <tr>
+                            <th> </th>
+                            <th>Costo en mxn.:</th>
+                        
+                        </tr>
+                        <tr>
+                            <td>Producto:</td>
+                            <td id = "prodAcordeonHero"></td>
+                        </tr>
+                        <tr>
+                            <td>IVA:</td>
+                            <td id = "ivaAcordeonHero"></td>
+                        </tr>
+                        <tr>
+                            <td>Comisión:</td>
+                            <td id = "comisionAcordeonHero"></td>
+                        </tr>
+                        <tr>
+                            <td>Total:</td>
+                            <td id = "totalAcordeonHero"></td>
+                        </tr>
+                   </table>
+    
+                     <hr>
+                     <h4>Grand Theft Auto: Mexico City $600</h4>
+                    <p>Lleve este nuevo juego de GTA para PS2, dónde podrá jugar como el "peje", "Juan Ga" y muchos personajes más. Incluye IVA.</p>
+                    <img src="https://warexparty.files.wordpress.com/2008/07/mexicogtavk0.jpg" alt = "GTAM" class="store">
+                    <br><br>
+                    <p>Ingrese la cantidad: </p>
+                    <input id = "cantidadGTAM" type="number" min="1" max="8">
+                    <table cellspacing="20">
+                        <tr>
+                            <th> </th>
+                            <th>Costo en mxn.:</th>
+                        
+                        </tr>
+                        <tr>
+                            <td>Producto:</td>
+                            <td id = "prodGTAM"></td>
+                        </tr>
+                        <tr>
+                            <td>IVA:</td>
+                            <td id = "ivaGTAM"></td>
+                        </tr>
+                        <tr>
+                            <td>Comisión:</td>
+                            <td id = "comisionGTAM"></td>
+                        </tr>
+                        <tr>
+                            <td>Total:</td>
+                            <td id = "totalGTAM"></td>
+                        </tr>
+                   </table>
+                    <hr>
+                    <h2> Adivinar edad</h2>
+    
+                       <p>Escribe tu año de nacimiento</p>
+    
+                        <input id = "anios" type="number">
+                        <br>
+                        <br
+                        <div class="btn-group-sm">
+                            <button id = "fecha" class="btn btn-secondary" >Generar</button>
+                            <button id="boton_ayuda_cumpleaños" type="button" class="btn btn-secondary" >?</button>
+                        </div>
+                        <br>
+                        <br>
+                        <hr>
+                        
+                        <h2>Drag and Drop</h2>
+                            <p>Drag the image back and forth between the two div elements.</p>
+                            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                <img src="http://i0.kym-cdn.com/entries/icons/facebook/000/000/091/TrollFace.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="44">
+                            </div>
+                             <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">Aquí</div>
+                    <br>
+                    <br>
+                    <hr>
+                    <h2>Cuestionario</h2>
+                    <p>Describe Material design<br>
+                    <strong class= "answer">
+                     Son una serie de normas y reglas de diseño, desarrollados por Google, las cuales se enfocan en la visualización del sistema operativo android y en las aplicacions realizadas por
+                     google.[1]
+                    </strong></p>
+                    </p>
+                   
+                    <br>
+                    <br>
+                    <hr>
+                    <h2>Referencias:</h2>
+                    <p>
+                        [1]http://bgr.com/2014/07/30/google-drive-material-design-update/
+                       
+                    </p>
+            </section>
+        </div>
+        <script type="text/javascript" src="lab5.js"></script>
+    </body>
+    
+</html>
