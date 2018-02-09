@@ -1,0 +1,9 @@
+[09-Feb-2018 01:23:54 UTC] PHP Fatal error:  Call to undefined function sorter() in /home/ubuntu/workspace/DAW_A01207765/Lab9/Lab9.php on line 92
+[09-Feb-2018 01:23:54 UTC] PHP Stack trace:
+[09-Feb-2018 01:23:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab9/Lab9.php:0
+[09-Feb-2018 01:24:33 UTC] PHP Fatal error:  Call to undefined function sorter() in /home/ubuntu/workspace/DAW_A01207765/Lab9/Lab9.php on line 92
+[09-Feb-2018 01:24:33 UTC] PHP Stack trace:
+[09-Feb-2018 01:24:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab9/Lab9.php:0
+[09-Feb-2018 01:55:05 UTC] PHP Fatal error:  Call to undefined function fibonnacci() in /home/ubuntu/workspace/DAW_A01207765/Lab9/Lab9.php on line 132
+[09-Feb-2018 01:55:05 UTC] PHP Stack trace:
+[09-Feb-2018 01:55:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab9/Lab9.php:0
