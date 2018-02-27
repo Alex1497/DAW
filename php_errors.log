@@ -32,3 +32,49 @@
 [22-Feb-2018 19:31:57 UTC] PHP Warning:  include(): Failed opening '_headerhtml' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Lab11/login.php on line 2
 [22-Feb-2018 19:31:57 UTC] PHP Stack trace:
 [22-Feb-2018 19:31:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab11/login.php:0
+[26-Feb-2018 19:51:15 UTC] PHP Warning:  include(_login_form.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW_A01207765/Lab13/index.php on line 9
+[26-Feb-2018 19:51:15 UTC] PHP Stack trace:
+[26-Feb-2018 19:51:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/index.php:0
+[26-Feb-2018 19:51:15 UTC] PHP Warning:  include(): Failed opening '_login_form.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Lab13/index.php on line 9
+[26-Feb-2018 19:51:15 UTC] PHP Stack trace:
+[26-Feb-2018 19:51:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/index.php:0
+[26-Feb-2018 19:51:54 UTC] PHP Warning:  include(_login_form.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW_A01207765/Lab13/index.php on line 9
+[26-Feb-2018 19:51:54 UTC] PHP Stack trace:
+[26-Feb-2018 19:51:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/index.php:0
+[26-Feb-2018 19:51:54 UTC] PHP Warning:  include(): Failed opening '_login_form.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Lab13/index.php on line 9
+[26-Feb-2018 19:51:54 UTC] PHP Stack trace:
+[26-Feb-2018 19:51:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/index.php:0
+[26-Feb-2018 19:54:46 UTC] PHP Warning:  include(_login_form.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW_A01207765/Lab13/index.php on line 9
+[26-Feb-2018 19:54:46 UTC] PHP Stack trace:
+[26-Feb-2018 19:54:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/index.php:0
+[26-Feb-2018 19:54:46 UTC] PHP Warning:  include(): Failed opening '_login_form.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Lab13/index.php on line 9
+[26-Feb-2018 19:54:46 UTC] PHP Stack trace:
+[26-Feb-2018 19:54:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/index.php:0
+[26-Feb-2018 19:56:35 UTC] PHP Warning:  include(_headerhtml): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php on line 14
+[26-Feb-2018 19:56:35 UTC] PHP Stack trace:
+[26-Feb-2018 19:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php:0
+[26-Feb-2018 19:56:35 UTC] PHP Warning:  include(): Failed opening '_headerhtml' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php on line 14
+[26-Feb-2018 19:56:35 UTC] PHP Stack trace:
+[26-Feb-2018 19:56:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php:0
+[26-Feb-2018 22:58:40 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/DAW_A01207765/Lab13/create.php on line 3
+[26-Feb-2018 22:59:49 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/DAW_A01207765/Lab13/create.php on line 3
+[26-Feb-2018 23:01:24 UTC] PHP Warning:  move_uploaded_file(uploads/1db31dfbdc537c138f326c582e35f72a.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW_A01207765/Lab13/create.php on line 43
+[26-Feb-2018 23:01:24 UTC] PHP Stack trace:
+[26-Feb-2018 23:01:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/create.php:0
+[26-Feb-2018 23:01:24 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/DAW_A01207765/Lab13/create.php:43
+[26-Feb-2018 23:01:24 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php2uDmRl' to 'uploads/1db31dfbdc537c138f326c582e35f72a.jpg' in /home/ubuntu/workspace/DAW_A01207765/Lab13/create.php on line 43
+[26-Feb-2018 23:01:24 UTC] PHP Stack trace:
+[26-Feb-2018 23:01:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/create.php:0
+[26-Feb-2018 23:01:24 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/DAW_A01207765/Lab13/create.php:43
+[27-Feb-2018 02:19:18 UTC] PHP Warning:  include(_cuestionario.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php on line 8
+[27-Feb-2018 02:19:18 UTC] PHP Stack trace:
+[27-Feb-2018 02:19:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php:0
+[27-Feb-2018 02:19:18 UTC] PHP Warning:  include(): Failed opening '_cuestionario.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php on line 8
+[27-Feb-2018 02:19:18 UTC] PHP Stack trace:
+[27-Feb-2018 02:19:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php:0
+[27-Feb-2018 02:29:59 UTC] PHP Warning:  include(_cuestionario.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php on line 17
+[27-Feb-2018 02:29:59 UTC] PHP Stack trace:
+[27-Feb-2018 02:29:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php:0
+[27-Feb-2018 02:29:59 UTC] PHP Warning:  include(): Failed opening '_cuestionario.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php on line 17
+[27-Feb-2018 02:29:59 UTC] PHP Stack trace:
+[27-Feb-2018 02:29:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php:0
