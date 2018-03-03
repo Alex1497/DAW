@@ -194,3 +194,15 @@
 [02-Mar-2018 20:51:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
 [02-Mar-2018 20:51:21 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
 [02-Mar-2018 20:51:21 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:31
+[03-Mar-2018 19:06:58 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/ubuntu/workspace/DAW_A01207765/Lab16/create.php on line 13
+[03-Mar-2018 19:06:58 UTC] PHP Stack trace:
+[03-Mar-2018 19:06:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab16/create.php:0
+[03-Mar-2018 19:06:58 UTC] PHP   2. getimagesize() /home/ubuntu/workspace/DAW_A01207765/Lab16/create.php:13
+[03-Mar-2018 19:16:33 UTC] PHP Fatal error:  Call to undefined function crearProducto() in /home/ubuntu/workspace/DAW_A01207765/Lab16/create.php on line 56
+[03-Mar-2018 19:16:33 UTC] PHP Stack trace:
+[03-Mar-2018 19:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab16/create.php:0
+[03-Mar-2018 19:22:12 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/DAW_A01207765/Lab16/modelo.php on line 61
+[03-Mar-2018 19:22:12 UTC] PHP Stack trace:
+[03-Mar-2018 19:22:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab16/create.php:0
+[03-Mar-2018 19:22:12 UTC] PHP   2. crearProducto() /home/ubuntu/workspace/DAW_A01207765/Lab16/create.php:56
+[03-Mar-2018 19:22:12 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Lab16/modelo.php:61
