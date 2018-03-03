@@ -78,3 +78,119 @@
 [27-Feb-2018 02:29:59 UTC] PHP Warning:  include(): Failed opening '_cuestionario.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php on line 17
 [27-Feb-2018 02:29:59 UTC] PHP Stack trace:
 [27-Feb-2018 02:29:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/login.php:0
+[27-Feb-2018 20:10:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'tienda' in /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php on line 3
+[27-Feb-2018 20:10:31 UTC] PHP Stack trace:
+[27-Feb-2018 20:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:0
+[27-Feb-2018 20:10:31 UTC] PHP   2. connect() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:9
+[27-Feb-2018 20:10:31 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:3
+[27-Feb-2018 20:10:31 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php on line 5
+[27-Feb-2018 20:10:31 UTC] PHP Stack trace:
+[27-Feb-2018 20:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:0
+[27-Feb-2018 20:10:31 UTC] PHP   2. connect() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:9
+[27-Feb-2018 20:11:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'tienda' in /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php on line 3
+[27-Feb-2018 20:11:08 UTC] PHP Stack trace:
+[27-Feb-2018 20:11:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:0
+[27-Feb-2018 20:11:08 UTC] PHP   2. connect() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:9
+[27-Feb-2018 20:11:08 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:3
+[27-Feb-2018 20:11:08 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php on line 5
+[27-Feb-2018 20:11:08 UTC] PHP Stack trace:
+[27-Feb-2018 20:11:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:0
+[27-Feb-2018 20:11:08 UTC] PHP   2. connect() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:9
+[27-Feb-2018 20:11:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ejuarezp'@'localhost' (using password: NO) in /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php on line 3
+[27-Feb-2018 20:11:29 UTC] PHP Stack trace:
+[27-Feb-2018 20:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:0
+[27-Feb-2018 20:11:29 UTC] PHP   2. connect() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:9
+[27-Feb-2018 20:11:29 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:3
+[27-Feb-2018 20:11:29 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php on line 5
+[27-Feb-2018 20:11:29 UTC] PHP Stack trace:
+[27-Feb-2018 20:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:0
+[27-Feb-2018 20:11:29 UTC] PHP   2. connect() /home/ubuntu/workspace/DAW_A01207765/Lab13/modelo.php:9
+[02-Mar-2018 20:17:04 UTC] PHP Fatal error:  Call to undefined function login() in /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php on line 11
+[02-Mar-2018 20:17:04 UTC] PHP Stack trace:
+[02-Mar-2018 20:17:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:18:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'tienda' in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 5
+[02-Mar-2018 20:18:46 UTC] PHP Stack trace:
+[02-Mar-2018 20:18:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:18:46 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:18:46 UTC] PHP   3. connect() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:20
+[02-Mar-2018 20:18:46 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:5
+[02-Mar-2018 20:18:46 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 11
+[02-Mar-2018 20:18:46 UTC] PHP Stack trace:
+[02-Mar-2018 20:18:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:18:46 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:18:46 UTC] PHP   3. connect() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:20
+[02-Mar-2018 20:20:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'tienda' in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 5
+[02-Mar-2018 20:20:43 UTC] PHP Stack trace:
+[02-Mar-2018 20:20:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:20:43 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:20:43 UTC] PHP   3. connect() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:20
+[02-Mar-2018 20:20:43 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:5
+[02-Mar-2018 20:20:43 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 11
+[02-Mar-2018 20:20:43 UTC] PHP Stack trace:
+[02-Mar-2018 20:20:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:20:43 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:20:43 UTC] PHP   3. connect() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:20
+[02-Mar-2018 20:23:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'tienda' in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 5
+[02-Mar-2018 20:23:29 UTC] PHP Stack trace:
+[02-Mar-2018 20:23:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:23:29 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:23:29 UTC] PHP   3. connect() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:20
+[02-Mar-2018 20:23:29 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:5
+[02-Mar-2018 20:23:29 UTC] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 11
+[02-Mar-2018 20:23:29 UTC] PHP Stack trace:
+[02-Mar-2018 20:23:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:23:29 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:23:29 UTC] PHP   3. connect() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:20
+[02-Mar-2018 20:24:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 31
+[02-Mar-2018 20:24:59 UTC] PHP Stack trace:
+[02-Mar-2018 20:24:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:24:59 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:24:59 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:31
+[02-Mar-2018 20:29:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 31
+[02-Mar-2018 20:29:35 UTC] PHP Stack trace:
+[02-Mar-2018 20:29:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:29:35 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:29:35 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:31
+[02-Mar-2018 20:37:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 30
+[02-Mar-2018 20:37:05 UTC] PHP Stack trace:
+[02-Mar-2018 20:37:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:37:05 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:37:05 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:30
+[02-Mar-2018 20:37:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 30
+[02-Mar-2018 20:37:51 UTC] PHP Stack trace:
+[02-Mar-2018 20:37:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:37:51 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:37:51 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:30
+[02-Mar-2018 20:38:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 30
+[02-Mar-2018 20:38:01 UTC] PHP Stack trace:
+[02-Mar-2018 20:38:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:38:01 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:38:01 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:30
+[02-Mar-2018 20:41:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 31
+[02-Mar-2018 20:41:07 UTC] PHP Stack trace:
+[02-Mar-2018 20:41:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:41:07 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:41:07 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:31
+[02-Mar-2018 20:44:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 31
+[02-Mar-2018 20:44:43 UTC] PHP Stack trace:
+[02-Mar-2018 20:44:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:44:43 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:44:43 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:31
+[02-Mar-2018 20:47:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 31
+[02-Mar-2018 20:47:55 UTC] PHP Stack trace:
+[02-Mar-2018 20:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:47:55 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:47:55 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:31
+[02-Mar-2018 20:49:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 31
+[02-Mar-2018 20:49:19 UTC] PHP Stack trace:
+[02-Mar-2018 20:49:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:49:19 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:49:19 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:31
+[02-Mar-2018 20:50:41 UTC] PHP Fatal error:  Can't use function return value in write context in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 31
+[02-Mar-2018 20:50:41 UTC] PHP Stack trace:
+[02-Mar-2018 20:50:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:51:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php on line 31
+[02-Mar-2018 20:51:21 UTC] PHP Stack trace:
+[02-Mar-2018 20:51:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:0
+[02-Mar-2018 20:51:21 UTC] PHP   2. login() /home/ubuntu/workspace/DAW_A01207765/Lab14/login.php:11
+[02-Mar-2018 20:51:21 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Lab14/modelo.php:31

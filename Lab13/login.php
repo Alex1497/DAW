@@ -8,7 +8,7 @@
         include("_cuestionario.html");
         include("_footer.html");
     }
-    else if($_POST["usuario"] == "Alex" && $_POST["password"]=="lab13"){
+   else if ($_POST["usuario"] == "Alex" && $_POST["password"]=="lab13") {
         unset($_SESSION["error"]);
         $_SESSION["usuario"] = $_POST["usuario"];
         $user = $_SESSION["usuario"];
