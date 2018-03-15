@@ -206,3 +206,9 @@
 [03-Mar-2018 19:22:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab16/create.php:0
 [03-Mar-2018 19:22:12 UTC] PHP   2. crearProducto() /home/ubuntu/workspace/DAW_A01207765/Lab16/create.php:56
 [03-Mar-2018 19:22:12 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Lab16/modelo.php:61
+[13-Mar-2018 20:32:51 UTC] PHP Warning:  include(_header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW_A01207765/Lab20/index.php on line 1
+[13-Mar-2018 20:32:51 UTC] PHP Stack trace:
+[13-Mar-2018 20:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab20/index.php:0
+[13-Mar-2018 20:32:51 UTC] PHP Warning:  include(): Failed opening '_header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Lab20/index.php on line 1
+[13-Mar-2018 20:32:51 UTC] PHP Stack trace:
+[13-Mar-2018 20:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab20/index.php:0
