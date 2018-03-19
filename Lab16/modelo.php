@@ -2,9 +2,9 @@
     function connect() {
         $ENV = "dev";
         if ($ENV == "dev") {
-            $mysql = mysqli_connect("localhost","Pala","palafox","Tienda");
+            $mysql = mysqli_connect("localhost","root","","Tienda");
         } else  if ($ENV == "prod"){
-            $mysql = mysqli_connect("localhost","Pala","palafox","Tienda");
+            $mysql = mysqli_connect("localhost","root","","Tienda");
         }
         
   $mysql->set_charset("utf8");
@@ -64,6 +64,29 @@
         } 
         return false;
     }
+    
+    function eliminarProducto($id){
+        $db = connect();
+        if($db != NULL){
+            
+            // insert command specification 
+            $query='DELETE FROM productos WHERE id=? ';
+               if (!($statement = $db->prepare($query))) {
+                    die("The preparation failed: (" . $db->errno . ") " . $db->error. ' Introduce el ID de la imagen correctamente');
+                }
+                // Binding statement params
+                if (!$statement->bind_param("s", $id)) {
+                     die("Parameter vinculation failed: (" . $statement->errno . ") " . $statement->error. 'Introduce el ID de la imagen correctamente');
+                } 
+                 // delete execution
+                if ($statement->execute()) {
+                     echo 'There were ' . mysqli_affected_rows($db) . ' affected rows';
+                } else {
+                     die("Update failed: (" . $statement->errno . ") " . $statement->error. '     Introduce el ID de la imagen correctamente');
+                }
+        }
+    }
+    
     
    function getTable($Tabla) {
         $db = connect();
@@ -134,7 +157,7 @@
                                       <p>Publicado el: '.$fila["created_at"].'.</p>
                                     </div>
                                     <div class="card-action">
-                                      <a href="editar.php?id='.$fila["id"].'">Editar</a>
+                                      <a href="delete.php?id='.$fila["id"].'">Eliminar</a>
                                     </div>
                                   </div>
                                 </div>
