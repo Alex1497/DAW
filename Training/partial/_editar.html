@@ -1,0 +1,39 @@
+ <!-- Modal Structure -->
+ <h4>Actualizar Estado  del Zombie</h4>
+<div class="container">
+    <form method="POST" action="guardar_estado.php">
+      <input name="Id_Zombie" id="Id_Zombie" type="hidden" value="<?=$data["Id_Zombie"];?>">
+      <div class="row">
+        <div class="input-field col-sm">
+          <input disable id="Name" name="Name" type="text" class="validate" value="<?php echo $data["Nombre"]; ?>">
+          <label for="Name">First Name</label>
+        </div>
+        <div class="input-field col s4">
+          <input disable id="Lastname" name="Lastname" type="text" class="validate" value="<?php echo $data["Apellido_P"]; ?>">
+          <label for="Lastname">Last Name</label>
+        </div>
+        <div class="input-field col s4">
+          <input  disable id="S_Lastname" name="S_Lastname"type="text" class="validate" value="<?php echo $data["Apellido_M"]; ?>">
+          <label for="S_Lastname">Second LN</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="Email" name="Email" type="text" class="validate" value="<?php echo $data["Estado"]; ?>">
+          <label for="Email">Estado</label>
+          
+        </div>
+        <br><br>
+         <div class="input-field col s6">
+            <select id="Estado" name="Estado" class="validate" required>
+                <option value="Infeccion">Infeccion</option>
+                <option value="Coma">Coma</option>
+                <option value="Transformacion">Transformacion</option>
+                <option value="Completamente Muerto">Completamente Muerto</option>
+            </select>
+            <label for="Estado">Nuevo Estado</label>
+            <div id="ajaxResponse"></div>
+        </div>
+      <input type="submit" class="btn btn-info" value="Submit Button">   
+    </form>
+  </div>

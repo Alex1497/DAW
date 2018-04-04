@@ -217,3 +217,516 @@
 [19-Mar-2018 20:22:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Lab16/create.php:0
 [19-Mar-2018 20:22:36 UTC] PHP   2. crearProducto() /home/ubuntu/workspace/DAW_A01207765/Lab16/create.php:56
 [19-Mar-2018 20:22:36 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Lab16/modelo.php:61
+[23-Mar-2018 16:51:01 UTC] PHP Warning:  include(partial/_footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW_A01207765/Training/index.php on line 5
+[23-Mar-2018 16:51:01 UTC] PHP Stack trace:
+[23-Mar-2018 16:51:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/index.php:0
+[23-Mar-2018 16:51:01 UTC] PHP Warning:  include(): Failed opening 'partial/_footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Training/index.php on line 5
+[23-Mar-2018 16:51:01 UTC] PHP Stack trace:
+[23-Mar-2018 16:51:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/index.php:0
+[23-Mar-2018 17:07:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 111
+[23-Mar-2018 17:07:17 UTC] PHP Stack trace:
+[23-Mar-2018 17:07:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:07:17 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:07:17 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:111
+[23-Mar-2018 17:07:17 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 125
+[23-Mar-2018 17:07:17 UTC] PHP Stack trace:
+[23-Mar-2018 17:07:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:07:17 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:07:17 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:125
+[23-Mar-2018 17:07:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:07:17 UTC] PHP Stack trace:
+[23-Mar-2018 17:07:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:07:17 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:07:17 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:07:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 111
+[23-Mar-2018 17:07:22 UTC] PHP Stack trace:
+[23-Mar-2018 17:07:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:07:22 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:07:22 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:111
+[23-Mar-2018 17:07:22 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 125
+[23-Mar-2018 17:07:22 UTC] PHP Stack trace:
+[23-Mar-2018 17:07:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:07:22 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:07:22 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:125
+[23-Mar-2018 17:07:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:07:22 UTC] PHP Stack trace:
+[23-Mar-2018 17:07:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:07:22 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:07:22 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:21:53 UTC] PHP Warning:  include(partial/_header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW_A01207765/Training/registro_zombie.php on line 3
+[23-Mar-2018 17:21:53 UTC] PHP Stack trace:
+[23-Mar-2018 17:21:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/registro_zombie.php:0
+[23-Mar-2018 17:21:53 UTC] PHP Warning:  include(): Failed opening 'partial/_header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Training/registro_zombie.php on line 3
+[23-Mar-2018 17:21:53 UTC] PHP Stack trace:
+[23-Mar-2018 17:21:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/registro_zombie.php:0
+[23-Mar-2018 17:22:26 UTC] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 132
+[23-Mar-2018 17:22:26 UTC] PHP Stack trace:
+[23-Mar-2018 17:22:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:0
+[23-Mar-2018 17:22:26 UTC] PHP   2. getById() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:4
+[23-Mar-2018 17:24:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 133
+[23-Mar-2018 17:24:51 UTC] PHP Stack trace:
+[23-Mar-2018 17:24:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:0
+[23-Mar-2018 17:24:51 UTC] PHP   2. getById() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:4
+[23-Mar-2018 17:24:51 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:133
+[23-Mar-2018 17:25:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 133
+[23-Mar-2018 17:25:02 UTC] PHP Stack trace:
+[23-Mar-2018 17:25:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:0
+[23-Mar-2018 17:25:02 UTC] PHP   2. getById() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:4
+[23-Mar-2018 17:25:02 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:133
+[23-Mar-2018 17:29:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 133
+[23-Mar-2018 17:29:56 UTC] PHP Stack trace:
+[23-Mar-2018 17:29:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:0
+[23-Mar-2018 17:29:56 UTC] PHP   2. getById() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:4
+[23-Mar-2018 17:29:56 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:133
+[23-Mar-2018 17:32:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 111
+[23-Mar-2018 17:32:11 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:11 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:32:11 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:111
+[23-Mar-2018 17:32:11 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 125
+[23-Mar-2018 17:32:11 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:11 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:32:11 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:125
+[23-Mar-2018 17:32:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:32:11 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:11 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:32:11 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:32:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 111
+[23-Mar-2018 17:32:25 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:25 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:32:25 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:111
+[23-Mar-2018 17:32:25 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 125
+[23-Mar-2018 17:32:25 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:25 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:32:25 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:125
+[23-Mar-2018 17:32:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:32:25 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:25 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:32:25 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:32:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 111
+[23-Mar-2018 17:32:29 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:29 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:32:29 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:111
+[23-Mar-2018 17:32:29 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 125
+[23-Mar-2018 17:32:29 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:29 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:32:29 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:125
+[23-Mar-2018 17:32:29 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:32:29 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:29 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:32:29 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:32:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 111
+[23-Mar-2018 17:32:34 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:34 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:32:34 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:111
+[23-Mar-2018 17:32:34 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 125
+[23-Mar-2018 17:32:34 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:34 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:32:34 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:125
+[23-Mar-2018 17:32:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:32:34 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:34 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:32:34 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:32:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 111
+[23-Mar-2018 17:32:37 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:37 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:32:37 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:111
+[23-Mar-2018 17:32:37 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 125
+[23-Mar-2018 17:32:37 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:37 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:32:37 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:125
+[23-Mar-2018 17:32:37 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:32:37 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:32:37 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:32:37 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:32:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 133
+[23-Mar-2018 17:32:50 UTC] PHP Stack trace:
+[23-Mar-2018 17:32:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:0
+[23-Mar-2018 17:32:50 UTC] PHP   2. getById() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:4
+[23-Mar-2018 17:32:50 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:133
+[23-Mar-2018 17:33:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 35
+[23-Mar-2018 17:33:21 UTC] PHP Stack trace:
+[23-Mar-2018 17:33:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/guardar_estado.php:0
+[23-Mar-2018 17:33:21 UTC] PHP   2. editarEstadoZombie() /home/ubuntu/workspace/DAW_A01207765/Training/guardar_estado.php:5
+[23-Mar-2018 17:37:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 133
+[23-Mar-2018 17:37:59 UTC] PHP Stack trace:
+[23-Mar-2018 17:37:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:0
+[23-Mar-2018 17:37:59 UTC] PHP   2. getById() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:4
+[23-Mar-2018 17:37:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:133
+[23-Mar-2018 17:38:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 111
+[23-Mar-2018 17:38:09 UTC] PHP Stack trace:
+[23-Mar-2018 17:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:38:09 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:38:09 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:111
+[23-Mar-2018 17:38:09 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 125
+[23-Mar-2018 17:38:09 UTC] PHP Stack trace:
+[23-Mar-2018 17:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:38:09 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:38:09 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:125
+[23-Mar-2018 17:38:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:38:09 UTC] PHP Stack trace:
+[23-Mar-2018 17:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:38:09 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:38:09 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:43:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 111
+[23-Mar-2018 17:43:31 UTC] PHP Stack trace:
+[23-Mar-2018 17:43:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:43:31 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:43:31 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:111
+[23-Mar-2018 17:43:31 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 125
+[23-Mar-2018 17:43:31 UTC] PHP Stack trace:
+[23-Mar-2018 17:43:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:43:31 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:43:31 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:125
+[23-Mar-2018 17:43:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:43:31 UTC] PHP Stack trace:
+[23-Mar-2018 17:43:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:43:31 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:43:31 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:46:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 137
+[23-Mar-2018 17:46:13 UTC] PHP Stack trace:
+[23-Mar-2018 17:46:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:46:13 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:46:13 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:137
+[23-Mar-2018 17:46:13 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 150
+[23-Mar-2018 17:46:13 UTC] PHP Stack trace:
+[23-Mar-2018 17:46:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:46:13 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:46:13 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:150
+[23-Mar-2018 17:46:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:46:13 UTC] PHP Stack trace:
+[23-Mar-2018 17:46:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:46:13 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:46:13 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:50:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 137
+[23-Mar-2018 17:50:44 UTC] PHP Stack trace:
+[23-Mar-2018 17:50:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:50:44 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:50:44 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:137
+[23-Mar-2018 17:50:44 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 150
+[23-Mar-2018 17:50:44 UTC] PHP Stack trace:
+[23-Mar-2018 17:50:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:50:44 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:50:44 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:150
+[23-Mar-2018 17:50:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:50:44 UTC] PHP Stack trace:
+[23-Mar-2018 17:50:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:50:44 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:50:44 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:50:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 137
+[23-Mar-2018 17:50:47 UTC] PHP Stack trace:
+[23-Mar-2018 17:50:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:50:47 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:50:47 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:137
+[23-Mar-2018 17:50:47 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 150
+[23-Mar-2018 17:50:47 UTC] PHP Stack trace:
+[23-Mar-2018 17:50:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:50:47 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:50:47 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:150
+[23-Mar-2018 17:50:47 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:50:47 UTC] PHP Stack trace:
+[23-Mar-2018 17:50:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:50:47 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:50:47 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:50:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 137
+[23-Mar-2018 17:50:50 UTC] PHP Stack trace:
+[23-Mar-2018 17:50:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:50:50 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:50:50 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:137
+[23-Mar-2018 17:50:50 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 150
+[23-Mar-2018 17:50:50 UTC] PHP Stack trace:
+[23-Mar-2018 17:50:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:50:50 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:50:50 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:150
+[23-Mar-2018 17:50:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:50:50 UTC] PHP Stack trace:
+[23-Mar-2018 17:50:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:50:50 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:50:50 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:50:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 137
+[23-Mar-2018 17:50:54 UTC] PHP Stack trace:
+[23-Mar-2018 17:50:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:50:54 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:50:54 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:137
+[23-Mar-2018 17:50:54 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 150
+[23-Mar-2018 17:50:54 UTC] PHP Stack trace:
+[23-Mar-2018 17:50:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:50:54 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:50:54 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:150
+[23-Mar-2018 17:50:54 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:50:54 UTC] PHP Stack trace:
+[23-Mar-2018 17:50:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:50:54 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:50:54 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 17:51:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 158
+[23-Mar-2018 17:51:18 UTC] PHP Stack trace:
+[23-Mar-2018 17:51:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:0
+[23-Mar-2018 17:51:18 UTC] PHP   2. getById() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:4
+[23-Mar-2018 17:51:18 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:158
+[23-Mar-2018 17:51:47 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 35
+[23-Mar-2018 17:51:47 UTC] PHP Stack trace:
+[23-Mar-2018 17:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/guardar_estado.php:0
+[23-Mar-2018 17:51:47 UTC] PHP   2. editarEstadoZombie() /home/ubuntu/workspace/DAW_A01207765/Training/guardar_estado.php:5
+[23-Mar-2018 17:52:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 158
+[23-Mar-2018 17:52:49 UTC] PHP Stack trace:
+[23-Mar-2018 17:52:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:0
+[23-Mar-2018 17:52:49 UTC] PHP   2. getById() /home/ubuntu/workspace/DAW_A01207765/Training/add.php:4
+[23-Mar-2018 17:52:49 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:158
+[23-Mar-2018 17:55:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 112
+[23-Mar-2018 17:55:41 UTC] PHP Stack trace:
+[23-Mar-2018 17:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:55:41 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:55:41 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:112
+[23-Mar-2018 17:55:41 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 126
+[23-Mar-2018 17:55:41 UTC] PHP Stack trace:
+[23-Mar-2018 17:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:55:41 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 17:55:41 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:126
+[23-Mar-2018 17:55:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 17:55:41 UTC] PHP Stack trace:
+[23-Mar-2018 17:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 17:55:41 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 17:55:41 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 18:00:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 112
+[23-Mar-2018 18:00:25 UTC] PHP Stack trace:
+[23-Mar-2018 18:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 18:00:25 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 18:00:25 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:112
+[23-Mar-2018 18:00:25 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 126
+[23-Mar-2018 18:00:25 UTC] PHP Stack trace:
+[23-Mar-2018 18:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 18:00:25 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 18:00:25 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:126
+[23-Mar-2018 18:00:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 18:00:25 UTC] PHP Stack trace:
+[23-Mar-2018 18:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 18:00:25 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 18:00:25 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 18:10:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 112
+[23-Mar-2018 18:10:08 UTC] PHP Stack trace:
+[23-Mar-2018 18:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 18:10:08 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 18:10:08 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:112
+[23-Mar-2018 18:10:08 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 126
+[23-Mar-2018 18:10:08 UTC] PHP Stack trace:
+[23-Mar-2018 18:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 18:10:08 UTC] PHP   2. getZombiesEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:3
+[23-Mar-2018 18:10:08 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:126
+[23-Mar-2018 18:10:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 18:10:08 UTC] PHP Stack trace:
+[23-Mar-2018 18:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 18:10:08 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 18:10:08 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 18:11:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 18:11:32 UTC] PHP Stack trace:
+[23-Mar-2018 18:11:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 18:11:32 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 18:11:32 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 18:11:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 92
+[23-Mar-2018 18:11:51 UTC] PHP Stack trace:
+[23-Mar-2018 18:11:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:0
+[23-Mar-2018 18:11:51 UTC] PHP   2. totalEstado() /home/ubuntu/workspace/DAW_A01207765/Training/estado.php:4
+[23-Mar-2018 18:11:51 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:92
+[23-Mar-2018 18:13:26 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 35
+[23-Mar-2018 18:13:26 UTC] PHP Stack trace:
+[23-Mar-2018 18:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/guardar_estado.php:0
+[23-Mar-2018 18:13:26 UTC] PHP   2. editarEstadoZombie() /home/ubuntu/workspace/DAW_A01207765/Training/guardar_estado.php:5
+[23-Mar-2018 18:15:07 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 44
+[23-Mar-2018 18:15:07 UTC] PHP Stack trace:
+[23-Mar-2018 18:15:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/guardar_estado.php:0
+[23-Mar-2018 18:15:07 UTC] PHP   2. editarEstadoZombie() /home/ubuntu/workspace/DAW_A01207765/Training/guardar_estado.php:5
+[23-Mar-2018 18:15:07 UTC] PHP   3. mysqli_affected_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:44
+[23-Mar-2018 18:15:38 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/DAW_A01207765/Training/util.php on line 44
+[23-Mar-2018 18:15:38 UTC] PHP Stack trace:
+[23-Mar-2018 18:15:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Training/guardar_estado.php:0
+[23-Mar-2018 18:15:38 UTC] PHP   2. editarEstadoZombie() /home/ubuntu/workspace/DAW_A01207765/Training/guardar_estado.php:5
+[23-Mar-2018 18:15:38 UTC] PHP   3. mysqli_affected_rows() /home/ubuntu/workspace/DAW_A01207765/Training/util.php:44
+[23-Mar-2018 18:41:55 UTC] PHP Parse error:  syntax error, unexpected 'cion' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Training/total_zombies.php on line 6
+[23-Mar-2018 18:42:08 UTC] PHP Parse error:  syntax error, unexpected 'cion' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Training/total_zombies.php on line 6
+[23-Mar-2018 18:53:03 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/ubuntu/workspace/DAW_A01207765/Training/estado_zombies.php on line 6
+[23-Mar-2018 19:38:29 UTC] PHP Warning:  include(partial/_head.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php on line 3
+[23-Mar-2018 19:38:29 UTC] PHP Stack trace:
+[23-Mar-2018 19:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:0
+[23-Mar-2018 19:38:29 UTC] PHP Warning:  include(): Failed opening 'partial/_head.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php on line 3
+[23-Mar-2018 19:38:29 UTC] PHP Stack trace:
+[23-Mar-2018 19:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:0
+[23-Mar-2018 19:38:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 40
+[23-Mar-2018 19:38:29 UTC] PHP Stack trace:
+[23-Mar-2018 19:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:0
+[23-Mar-2018 19:38:29 UTC] PHP   2. getSesiones() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:5
+[23-Mar-2018 19:38:29 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php:40
+[23-Mar-2018 19:38:29 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 51
+[23-Mar-2018 19:38:29 UTC] PHP Stack trace:
+[23-Mar-2018 19:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:0
+[23-Mar-2018 19:38:29 UTC] PHP   2. getSesiones() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:5
+[23-Mar-2018 19:38:29 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php:51
+[23-Mar-2018 19:38:29 UTC] PHP Warning:  include(partial/_footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php on line 6
+[23-Mar-2018 19:38:29 UTC] PHP Stack trace:
+[23-Mar-2018 19:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:0
+[23-Mar-2018 19:38:29 UTC] PHP Warning:  include(): Failed opening 'partial/_footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php on line 6
+[23-Mar-2018 19:38:29 UTC] PHP Stack trace:
+[23-Mar-2018 19:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:0
+[23-Mar-2018 19:38:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 40
+[23-Mar-2018 19:38:52 UTC] PHP Stack trace:
+[23-Mar-2018 19:38:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:0
+[23-Mar-2018 19:38:52 UTC] PHP   2. getSesiones() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:5
+[23-Mar-2018 19:38:52 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php:40
+[23-Mar-2018 19:38:52 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 51
+[23-Mar-2018 19:38:52 UTC] PHP Stack trace:
+[23-Mar-2018 19:38:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:0
+[23-Mar-2018 19:38:52 UTC] PHP   2. getSesiones() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:5
+[23-Mar-2018 19:38:52 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php:51
+[23-Mar-2018 20:02:43 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/registrar_sesion.php on line 5
+[23-Mar-2018 20:03:22 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/registrar_sesion.php on line 5
+[23-Mar-2018 20:05:26 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/registrar_sesion.php on line 5
+[23-Mar-2018 20:11:11 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/registrar_sesion.php on line 5
+[23-Mar-2018 20:11:41 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting '(' in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/registrar_sesion.php on line 5
+[23-Mar-2018 20:17:43 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/registrar_sesion.php on line 5
+[23-Mar-2018 20:27:43 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 58
+[23-Mar-2018 20:27:43 UTC] PHP Stack trace:
+[23-Mar-2018 20:27:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 20:27:45 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 58
+[23-Mar-2018 20:27:45 UTC] PHP Stack trace:
+[23-Mar-2018 20:27:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:0
+[23-Mar-2018 20:27:49 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 58
+[23-Mar-2018 20:27:49 UTC] PHP Stack trace:
+[23-Mar-2018 20:27:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_registros.php:0
+[23-Mar-2018 20:28:49 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/registrar_sesion.php on line 6
+[23-Mar-2018 20:29:14 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/registrar_sesion.php on line 6
+[23-Mar-2018 20:34:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 80
+[23-Mar-2018 20:34:53 UTC] PHP Stack trace:
+[23-Mar-2018 20:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failures.php:0
+[23-Mar-2018 20:35:49 UTC] PHP Warning:  include(partial/_footer.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failures.php on line 6
+[23-Mar-2018 20:35:49 UTC] PHP Stack trace:
+[23-Mar-2018 20:35:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failures.php:0
+[23-Mar-2018 20:35:49 UTC] PHP Warning:  include(): Failed opening 'partial/_footer.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failures.php on line 6
+[23-Mar-2018 20:35:49 UTC] PHP Stack trace:
+[23-Mar-2018 20:35:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failures.php:0
+[23-Mar-2018 20:42:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failures.php on line 7
+[23-Mar-2018 20:49:34 UTC] PHP Parse error:  syntax error, unexpected 'estado' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 20:49:34 UTC] PHP Stack trace:
+[23-Mar-2018 20:49:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failures.php:0
+[23-Mar-2018 20:49:36 UTC] PHP Parse error:  syntax error, unexpected 'estado' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 20:49:36 UTC] PHP Stack trace:
+[23-Mar-2018 20:49:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failures.php:0
+[23-Mar-2018 20:52:27 UTC] PHP Fatal error:  Call to undefined function getNumSucces() in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php on line 9
+[23-Mar-2018 20:52:28 UTC] PHP Stack trace:
+[23-Mar-2018 20:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php:0
+[23-Mar-2018 21:16:21 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 60
+[23-Mar-2018 21:16:21 UTC] PHP Stack trace:
+[23-Mar-2018 21:16:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:16:22 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 60
+[23-Mar-2018 21:16:22 UTC] PHP Stack trace:
+[23-Mar-2018 21:16:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:16:33 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 60
+[23-Mar-2018 21:16:33 UTC] PHP Stack trace:
+[23-Mar-2018 21:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:16:33 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 60
+[23-Mar-2018 21:16:33 UTC] PHP Stack trace:
+[23-Mar-2018 21:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/registrar_sesion.php:0
+[23-Mar-2018 21:18:50 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 60
+[23-Mar-2018 21:18:50 UTC] PHP Stack trace:
+[23-Mar-2018 21:18:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:18:50 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 60
+[23-Mar-2018 21:18:50 UTC] PHP Stack trace:
+[23-Mar-2018 21:18:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/registrar_sesion.php:0
+[23-Mar-2018 21:19:25 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 60
+[23-Mar-2018 21:19:25 UTC] PHP Stack trace:
+[23-Mar-2018 21:19:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:19:29 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 60
+[23-Mar-2018 21:19:29 UTC] PHP Stack trace:
+[23-Mar-2018 21:19:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:19:52 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:19:52 UTC] PHP Stack trace:
+[23-Mar-2018 21:19:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:19:53 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:19:53 UTC] PHP Stack trace:
+[23-Mar-2018 21:19:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:19:53 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:19:53 UTC] PHP Stack trace:
+[23-Mar-2018 21:19:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:19:53 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:19:53 UTC] PHP Stack trace:
+[23-Mar-2018 21:19:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:19:53 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:19:53 UTC] PHP Stack trace:
+[23-Mar-2018 21:19:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:19:54 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:19:54 UTC] PHP Stack trace:
+[23-Mar-2018 21:19:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:19:54 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:19:54 UTC] PHP Stack trace:
+[23-Mar-2018 21:19:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:20:17 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:20:17 UTC] PHP Stack trace:
+[23-Mar-2018 21:20:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:20:18 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:20:18 UTC] PHP Stack trace:
+[23-Mar-2018 21:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:20:18 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:20:18 UTC] PHP Stack trace:
+[23-Mar-2018 21:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:21:13 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:21:13 UTC] PHP Stack trace:
+[23-Mar-2018 21:21:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:21:14 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:21:14 UTC] PHP Stack trace:
+[23-Mar-2018 21:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:21:14 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:21:14 UTC] PHP Stack trace:
+[23-Mar-2018 21:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:21:14 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:21:14 UTC] PHP Stack trace:
+[23-Mar-2018 21:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:21:14 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:21:14 UTC] PHP Stack trace:
+[23-Mar-2018 21:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:21:14 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:21:14 UTC] PHP Stack trace:
+[23-Mar-2018 21:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:21:15 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:21:15 UTC] PHP Stack trace:
+[23-Mar-2018 21:21:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/index.php:0
+[23-Mar-2018 21:21:43 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:21:43 UTC] PHP Stack trace:
+[23-Mar-2018 21:21:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php:0
+[23-Mar-2018 21:21:45 UTC] PHP Parse error:  syntax error, unexpected 'SYSTEM' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 79
+[23-Mar-2018 21:21:45 UTC] PHP Stack trace:
+[23-Mar-2018 21:21:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php:0
+[23-Mar-2018 21:45:30 UTC] PHP Parse error:  syntax error, unexpected 'disconnectDB' (T_STRING) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 86
+[23-Mar-2018 21:45:30 UTC] PHP Stack trace:
+[23-Mar-2018 21:45:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php:0
+[23-Mar-2018 21:45:59 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 83
+[23-Mar-2018 21:45:59 UTC] PHP Stack trace:
+[23-Mar-2018 21:45:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php:0
+[23-Mar-2018 21:45:59 UTC] PHP   2. getNumFailures() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php:7
+[23-Mar-2018 21:47:13 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php on line 8
+[23-Mar-2018 21:47:13 UTC] PHP Stack trace:
+[23-Mar-2018 21:47:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php:0
+[23-Mar-2018 22:04:20 UTC] PHP Parse error:  syntax error, unexpected '$line' (T_VARIABLE) in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 96
+[23-Mar-2018 22:04:20 UTC] PHP Stack trace:
+[23-Mar-2018 22:04:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php:0
+[23-Mar-2018 22:44:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 62
+[23-Mar-2018 22:44:23 UTC] PHP Stack trace:
+[23-Mar-2018 22:44:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php:0
+[23-Mar-2018 22:44:23 UTC] PHP   2. getSystemFailure() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php:5
+[23-Mar-2018 22:44:23 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php:62
+[23-Mar-2018 22:44:23 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php on line 73
+[23-Mar-2018 22:44:23 UTC] PHP Stack trace:
+[23-Mar-2018 22:44:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php:0
+[23-Mar-2018 22:44:23 UTC] PHP   2. getSystemFailure() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/ver_system_failuresSuccess.php:5
+[23-Mar-2018 22:44:23 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/DAW_A01207765/Examen_Parcial_2/util.php:73

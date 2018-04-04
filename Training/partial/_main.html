@@ -1,0 +1,45 @@
+ <!-- Modal Structure -->
+      <h4>Registrar Zombie</h4>
+      <br>
+      <div class="row">
+        <form id="registro" class="col s12" method="POST" action="registrar_zombie.php"><!-- Solicitud a PHP de registro-->
+          <div class="row"><!-- Parametros empleados-->
+            <p>Nombre Completo: </p>
+            <div class="input-field col s4">
+              <input id="Nombre" name="Nombre" type="text" class="validate" required>
+              <label for="Nombre">Nombre</label>
+            </div>
+            <div class="input-field col s4">
+              <input id="Apellido_P" name="Apellido_P" type="text" class="validate" required>
+              <label for="Apellido_P">Apellido Paterno</label>
+            </div>
+            <div class="input-field col s4">
+              <input id="Apellido_M" name="Apellido_M" type="text" class="validate" required>
+              <label for="Apellido_M">Apellido_M</label>
+            </div>
+          </div>
+          <br><br>
+            <p>Datos de Usuario: </p>
+            <br>
+          <div class="row">
+            <div class="input-field col s6">
+               
+
+                      <select id="Estado" name="Estado" class="validate" required>
+                    <option value="Infeccion">Infeccion</option>
+                    <option value="Coma">Coma</option>
+                    <option value="Transformacion">Transformacion</option>
+                    <option value="Completamente Muerto">Completamente Muerto</option>
+                  </select>
+                      <label for="Estado">Estado</label>
+                      <div id="ajaxResponse"></div>
+            
+            </div>
+            
+          </div>
+          <button type="submit" id="registrarse" >Crear Zombie</button>
+        </form>
+      </div>
+    </div>
+    <br><br>
+    <div id="respuestaTotal"></div>
