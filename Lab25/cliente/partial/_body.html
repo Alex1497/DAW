@@ -1,0 +1,20 @@
+<h3>Operación 1</h3>
+<p>Muestra todos los zombies de la base de datos. No recibe parámetros.</p>
+<?php
+    $idZombie = 1;
+    $url = "https://daw-alex0314.c9users.io/DAW_A01207765/Lab25/my-servicio-web/public/"; 
+    $context = stream_context_create(['http'=>[]]);
+    $response = file_get_contents($url, null, $context);
+    //var_dump($response);
+    echo $response; 
+?>
+<h3>Operación 2</h3>
+<p>Muestra el zombie que tenga el id que se envía como parámetro.</p>
+<?php
+    $idZombie = 3;
+    $url = "https://daw-alex0314.c9users.io/DAW_A01207765/Lab25/my-servicio-web/public/$idZombie"; 
+    $context = stream_context_create(['http'=>[]]);
+    $response = file_get_contents($url, null, $context);
+    //var_dump($response); 
+    echo $response;
+?>
